@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  background: white;
+}
+
+th {
+  background: #eee;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}
